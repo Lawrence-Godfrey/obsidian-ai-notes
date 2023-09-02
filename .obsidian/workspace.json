@@ -13,18 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Machine Learning/Supervised Learning/Neural Networks.md",
+                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "cd07258c83626a88",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           },
           {
@@ -87,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,6 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,6 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +192,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md"
+              }
             }
           }
         ],
@@ -221,47 +216,50 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "cd07258c83626a88",
+  "active": "ac79b12277ea17d8",
   "lastOpenFiles": [
-    "AI/Machine Learning/Feature Scaling.md",
+    "AI/Machine Learning/Unsupervised Learning/Clustering.md",
+    "AI/Machine Learning/Unsupervised Learning/Anomaly Detection.md",
+    "media/Pasted image 20230828123148.png",
+    "AI/Machine Learning/Natural Language Processing/Preprocessing.md",
+    "Untitled.canvas",
+    "media",
+    "AI/Machine Learning/Natural Language Processing/Feature Extraction.md",
+    "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
+    "AI/Machine Learning/Natural Language Processing",
+    "AI/Machine Learning/Supervised Learning/Linear Regression.md",
     "AI/Machine Learning/Supervised Learning/Neural Networks.md",
+    "AI/Machine Learning/Feature Scaling.md",
     "AI/Machine Learning/Linear Algebra Basics.md",
     "AI/Machine Learning/Definition of AI.md",
     "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
     "AI/Machine Learning/Supervised Learning/Overfitting & Underfitting.md",
-    "AI/Machine Learning/Unsupervised Learning/Clustering.md",
-    "AI/Machine Learning/Unsupervised Learning/Anomaly Detection.md",
     "AI/Machine Learning/Supervised Learning/Performance Metrics.md",
     "AI/Machine Learning/Supervised Learning/Support Vector Machines.md",
     "AI/Machine Learning/Supervised Learning/Recommender Systems.md",
-    "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
     "\"Linear.md",
     "Linear.md",
     "AI/Machine Learning/Supervised Learning/Logistic Regression.md",
-    "AI/Machine Learning/Supervised Learning/Linear Regression.md",
     "regularisation.md",
     "AI/Machine Learning/Supervised Learning/Explanatory Data Analysis.md",
     "AI/Machine Learning/Unitled",
-    "Pasted image 20230828172559.png",
-    "Pasted image 20230828172228.png",
-    "Pasted image 20230828165021.png",
-    "Pasted image 20230828164510.png",
+    "media/Pasted image 20230828172559.png",
+    "media/Pasted image 20230828172228.png",
+    "media/Pasted image 20230828165021.png",
+    "media/Pasted image 20230828164510.png",
     "AI/Machine Learning/Unsupervised Learning",
-    "Pasted image 20230828162307.png",
-    "Pasted image 20230828150635.png",
-    "Pasted image 20230828150431.png",
-    "Pasted image 20230828143833.png",
+    "media/Pasted image 20230828162307.png",
+    "media/Pasted image 20230828150635.png",
+    "media/Pasted image 20230828150431.png",
+    "media/Pasted image 20230828143833.png",
     "AI/vault/Untitled",
     "AI/Untitled",
     "AI/vault/Untitled.md",
     "AI/vault",
-    "Pasted image 20230828123244.png",
-    "Pasted image 20230828123148.png",
-    "Untitled.canvas",
+    "media/Pasted image 20230828123244.png",
     "AI/Machine Learning/Supervised Learning",
     "This is a test file.md",
     "AI/Machine Learning",
-    "Untitled",
     "AI",
     "2022-12-08.md"
   ]
