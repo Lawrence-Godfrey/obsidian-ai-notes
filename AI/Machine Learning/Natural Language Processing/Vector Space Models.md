@@ -1,0 +1,1 @@
+Vector Space Models (VSMs) refer to a collection of methods used in natural language processing and information retrieval where text documents (or individual words) are represented as vectors in a high-dimensional space. The principle behind VSM is to capture the semantic meaning of documents or words based on their content and represent this content numerically.

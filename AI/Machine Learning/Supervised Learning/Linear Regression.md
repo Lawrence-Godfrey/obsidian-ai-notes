@@ -22,6 +22,7 @@ where
  - $\alpha$ is the learning rate, which is a hyper-parameter which controls how much the parameters should be adjusted each iteration. Too low a value causes gradient descent to happen slowly, while too large a value will prevent gradient descent from converging and could cause it to diverge.
 
 The vectorised form of this equation is $$\nabla J(\theta) = \frac{1}{m}X^{T}(X\theta - y)$$
+See [[Loss Functions#Frobenius Norm|Frobenius Norm]].
 and the update equation would be
 $$\theta := \theta - \alpha \nabla J(\theta)$$
 ### Batch Gradient Descent

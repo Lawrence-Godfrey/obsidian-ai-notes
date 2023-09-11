@@ -12,7 +12,7 @@
   "prefix": "\n\n",
   "stream": false,
   "context": {
-    "includeTitle": false,
+    "includeTitle": true,
     "includeStaredBlocks": true,
     "includeFrontmatter": true,
     "includeHeadings": true,
@@ -20,7 +20,7 @@
     "includeMentions": false,
     "includeHighlights": true,
     "includeExtractions": false,
-    "includeClipboard": true
+    "includeClipboard": false
   },
   "requestTimeout": 300000,
   "options": {
