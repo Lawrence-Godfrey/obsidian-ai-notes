@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac79b12277ea17d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f9f5aadaeb2357c1",
             "type": "leaf",
             "state": {
@@ -59,12 +47,8 @@
             "id": "47d1e5f5be85390c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -73,13 +57,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
+                "file": "AI/Machine Learning/Supervised Learning/Loss Functions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,13 +175,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md"
-              }
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -216,32 +197,42 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "ac79b12277ea17d8",
+  "active": "d33f0203bf0b343d",
   "lastOpenFiles": [
-    "AI/Machine Learning/Unsupervised Learning/Clustering.md",
+    "AI/Machine Learning/Supervised Learning/Locality Sensitive Hashing.md",
+    "media/Pasted image 20230911200819.png",
+    "AI/Machine Learning/Unsupervised Learning/Clustering/K-Means.md",
+    "AI/Machine Learning/Unsupervised Learning/Clustering/DBSCAN.md",
     "AI/Machine Learning/Unsupervised Learning/Anomaly Detection.md",
+    "AI/Machine Learning/Unsupervised Learning/Clustering.md",
+    "AI/Machine Learning/Unsupervised Learning/Clustering",
+    "AI/Machine Learning/Unsupervised Learning/Untitled.canvas",
+    "AI/Machine Learning/Supervised Learning/Neural Networks.md",
+    "AI/Machine Learning/Supervised Learning/Loss Functions.md",
+    "AI/Machine Learning/Supervised Learning/Linear Regression.md",
+    "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
+    "Frobenius Norm.md",
+    "AI/Machine Learning/Supervised Learning/Explanatory Data Analysis.md",
+    "AI/Machine Learning/Supervised Learning/Logistic Regression.md",
+    "AI/Machine Learning/Supervised Learning/Support Vector Machines.md",
+    "AI/Machine Learning/Supervised Learning/Recurrent Neural Networks.md",
+    "AI/Machine Learning/Supervised Learning/Performance Metrics.md",
+    "AI/Machine Learning/Supervised Learning/Overfitting & Underfitting.md",
+    "AI/Machine Learning/Supervised Learning/Naïve Bayes.md",
+    "AI/Research Paper Explanations/Llama 2 - Open Foundation and Fine-Tuned Chat Models.md",
+    "AI/Machine Learning/Natural Language Processing/Euclidean Distance vs Cosine Similarity.md",
+    "AI/Machine Learning/Linear Algebra Basics.md",
+    "AI/Machine Learning/Natural Language Processing/Vector Space Models.md",
+    "AI/Machine Learning/Natural Language Processing/Term-Document Matrix.md",
+    "AI/Machine Learning/Natural Language Processing/Co-occurrence Matrix.md",
+    "AI/Machine Learning/Natural Language Processing/Cooccurrence Matrix.md",
+    "AI/Research Paper Explanations/GloVe.md",
+    "AI/Machine Learning/Probability",
+    "AI/Research Paper Explanations",
     "media/Pasted image 20230828123148.png",
-    "AI/Machine Learning/Natural Language Processing/Preprocessing.md",
     "Untitled.canvas",
     "media",
-    "AI/Machine Learning/Natural Language Processing/Feature Extraction.md",
-    "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
     "AI/Machine Learning/Natural Language Processing",
-    "AI/Machine Learning/Supervised Learning/Linear Regression.md",
-    "AI/Machine Learning/Supervised Learning/Neural Networks.md",
-    "AI/Machine Learning/Feature Scaling.md",
-    "AI/Machine Learning/Linear Algebra Basics.md",
-    "AI/Machine Learning/Definition of AI.md",
-    "AI/Machine Learning/Unsupervised Learning/Dimensionality Reduction.md",
-    "AI/Machine Learning/Supervised Learning/Overfitting & Underfitting.md",
-    "AI/Machine Learning/Supervised Learning/Performance Metrics.md",
-    "AI/Machine Learning/Supervised Learning/Support Vector Machines.md",
-    "AI/Machine Learning/Supervised Learning/Recommender Systems.md",
-    "\"Linear.md",
-    "Linear.md",
-    "AI/Machine Learning/Supervised Learning/Logistic Regression.md",
-    "regularisation.md",
-    "AI/Machine Learning/Supervised Learning/Explanatory Data Analysis.md",
     "AI/Machine Learning/Unitled",
     "media/Pasted image 20230828172559.png",
     "media/Pasted image 20230828172228.png",
@@ -253,14 +244,7 @@
     "media/Pasted image 20230828150431.png",
     "media/Pasted image 20230828143833.png",
     "AI/vault/Untitled",
-    "AI/Untitled",
-    "AI/vault/Untitled.md",
     "AI/vault",
-    "media/Pasted image 20230828123244.png",
-    "AI/Machine Learning/Supervised Learning",
-    "This is a test file.md",
-    "AI/Machine Learning",
-    "AI",
-    "2022-12-08.md"
+    "AI/Machine Learning/Supervised Learning"
   ]
 }

@@ -1,0 +1,1 @@
+This [Obsidian](https://obsidian.md/) vault contains notes on AI-related topics such as machine learning, natural language processing, and neural networks. To use this vault in Obsidian, simply clone this repo and import it into your local Obsidian workspace.
