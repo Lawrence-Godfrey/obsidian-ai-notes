@@ -1,4 +1,3 @@
-### K-Means
 Given the target number of clusters $K$ and your dataset $x^{i}\in \mathbb{R}^{n}$ 
  1. Randomly initialise cluster centroids $u_{1}, u_{2}, ..., u_{K} \in \mathbb{R}^{n}$
  2. Repeat the following:
@@ -16,3 +15,5 @@ The K-means algorithm can get stuck in local optima:
 ![[Pasted image 20230828164510.png | center]]
 
 Can try running K-means on the dataset a number of times with different random initialisations and use the one with the lowest cost.
+
+For a clustering algorithm which doesn't require a preconfigured number of clusters, see [[DBSCAN]].

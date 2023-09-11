@@ -25,3 +25,11 @@ Choose $k$ to be the smallest value so that 99% of variance is maintained, i.e.,
  - It is possible to reconstruct the data in the original dimensionality if the principle components are kept, although it will obviously be an approximation of the original dataset.
  - PCA should **not** be used to prevent [[Overfitting & Underfitting|overfitting]].
  - Only use PCA if actually needed, not as a standard in your pipeline.
+
+### t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- **Non-linear Technique**: t-SNE is a non-linear dimensionality reduction method specifically designed for the visualisation of high-dimensional datasets.
+- **Probabilistic Approach**: It works by converting the high-dimensional Euclidean distances between data points into conditional probabilities that represent similarities. The same is done for the low-dimensional counterparts of these data points. The technique then minimizes the divergence between the two distributions using gradient descent.
+- **Local Structure**: t-SNE excels at capturing the local structure of the data and revealing clusters. It often produces visually appealing plots where clusters of similar data points are grouped together.
+- **Perplexity Parameter**: t-SNE has a tunable parameter called "perplexity," which can have a significant impact on the resulting visualisation. It loosely determines how to balance attention between local and global aspects of the data.
+- **Stochastic**: t-SNE is non-deterministic, meaning that running it multiple times on the same data can produce different results. This is because of the random initialisation of the low-dimensional embeddings, though the overall structure should remain similar.
+- **Computationally Intensive**: t-SNE can be more computationally demanding than PCA, especially on large datasets.
