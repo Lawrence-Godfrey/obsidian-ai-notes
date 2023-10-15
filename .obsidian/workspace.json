@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7a90c8790f02c3e9",
+        "id": "a334d68e4102d243",
         "type": "tabs",
         "children": [
           {
-            "id": "f9f5aadaeb2357c1",
+            "id": "429f8f0fb775f460",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Machine Learning/Supervised Learning/Performance Metrics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5762c60355ad83c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bded83eb6c46e1cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "47d1e5f5be85390c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "caed75520e3a33ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Machine Learning/Supervised Learning/Loss Functions.md",
+                "file": "AI/Machine Learning/Natural Language Processing/N-Gram Model.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AI/Machine Learning/Natural Language Processing/N-Gram Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AI/Machine Learning/Natural Language Processing/N-Gram Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +132,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AI/Machine Learning/Natural Language Processing/N-Gram Model.md"
+              }
+            }
+          },
+          {
+            "id": "d955950399d25f53",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -197,54 +166,54 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "d33f0203bf0b343d",
+  "active": "429f8f0fb775f460",
   "lastOpenFiles": [
-    "AI/Machine Learning/Supervised Learning/Locality Sensitive Hashing.md",
-    "media/Pasted image 20230911200819.png",
-    "AI/Machine Learning/Unsupervised Learning/Clustering/K-Means.md",
-    "AI/Machine Learning/Unsupervised Learning/Clustering/DBSCAN.md",
-    "AI/Machine Learning/Unsupervised Learning/Anomaly Detection.md",
-    "AI/Machine Learning/Unsupervised Learning/Clustering.md",
-    "AI/Machine Learning/Unsupervised Learning/Clustering",
-    "AI/Machine Learning/Unsupervised Learning/Untitled.canvas",
-    "AI/Machine Learning/Supervised Learning/Neural Networks.md",
-    "AI/Machine Learning/Supervised Learning/Loss Functions.md",
-    "AI/Machine Learning/Supervised Learning/Linear Regression.md",
+    "Untitled.canvas",
     "AI/Machine Learning/Supervised Learning/Gradient Descent.md",
-    "Frobenius Norm.md",
-    "AI/Machine Learning/Supervised Learning/Explanatory Data Analysis.md",
+    "AI/Machine Learning/Decision Tree Learning.md",
+    "AI/README.md",
+    "AI/media/Pasted image 20231008195522.png",
+    "AI/media/Pasted image 20231008195843.png",
+    "AI/Machine Learning/Natural Language Processing/N-Gram Model.md",
+    "AI/Machine Learning/Probability/Bayes' Rule.md",
+    "AI/Machine Learning/Probability/Chain Rule.md",
+    "AI/Machine Learning/Probability/Conditional Probability.md",
+    "AI/Machine Learning/Natural Language Processing/Feature Extraction.md",
+    "AI/Machine Learning/Natural Language Processing/Part of Speech Tagging.md",
+    "AI/Machine Learning/Probability/Viterbi Algorithm.md",
+    "AI/Machine Learning/Probability/Hidden Markov Model.md",
+    "AI/Machine Learning/Unsupervised Learning/Anomaly Detection.md",
+    "AI/Machine Learning/Supervised Learning/Loss Functions.md",
+    "AI/Machine Learning/Probability/Markov Chains.md",
+    "AI/Machine Learning/Natural Language Processing/Autocorrect.md",
+    "AI/media/Pasted image 20231008175718.png",
+    "AI/media/Pasted image 20231008175523.png",
+    "AI/media/Pasted image 20231008174942.png",
+    "Todo/Todo - Work.md",
+    "AI/Machine Learning/Supervised Learning/Locality Sensitive Hashing.md",
     "AI/Machine Learning/Supervised Learning/Logistic Regression.md",
-    "AI/Machine Learning/Supervised Learning/Support Vector Machines.md",
-    "AI/Machine Learning/Supervised Learning/Recurrent Neural Networks.md",
-    "AI/Machine Learning/Supervised Learning/Performance Metrics.md",
-    "AI/Machine Learning/Supervised Learning/Overfitting & Underfitting.md",
-    "AI/Machine Learning/Supervised Learning/Naïve Bayes.md",
-    "AI/Research Paper Explanations/Llama 2 - Open Foundation and Fine-Tuned Chat Models.md",
-    "AI/Machine Learning/Natural Language Processing/Euclidean Distance vs Cosine Similarity.md",
-    "AI/Machine Learning/Linear Algebra Basics.md",
+    "AI/Machine Learning/Supervised Learning/Linear Regression.md",
+    "AI/Machine Learning/Supervised Learning/Explanatory Data Analysis.md",
     "AI/Machine Learning/Natural Language Processing/Vector Space Models.md",
     "AI/Machine Learning/Natural Language Processing/Term-Document Matrix.md",
+    "AI/Machine Learning/Natural Language Processing/Preprocessing.md",
+    "AI/Machine Learning/Natural Language Processing/Euclidean Distance vs Cosine Similarity.md",
     "AI/Machine Learning/Natural Language Processing/Co-occurrence Matrix.md",
-    "AI/Machine Learning/Natural Language Processing/Cooccurrence Matrix.md",
-    "AI/Research Paper Explanations/GloVe.md",
+    "AI/media/Pasted image 20230828172559.png",
+    "AI/media/Pasted image 20230828123244.png",
+    "AI/media/Pasted image 20230828143833.png",
+    "AI/media/Pasted image 20230911200819.png",
+    "AI/media/Pasted image 20230828172228.png",
+    "AI/media",
+    "untitled folder",
+    "Todo",
+    "AI/Machine Learning/Unsupervised Learning/Clustering",
+    "AI/Machine Learning/Unsupervised Learning/Untitled.canvas",
     "AI/Machine Learning/Probability",
     "AI/Research Paper Explanations",
-    "media/Pasted image 20230828123148.png",
-    "Untitled.canvas",
     "media",
     "AI/Machine Learning/Natural Language Processing",
     "AI/Machine Learning/Unitled",
-    "media/Pasted image 20230828172559.png",
-    "media/Pasted image 20230828172228.png",
-    "media/Pasted image 20230828165021.png",
-    "media/Pasted image 20230828164510.png",
-    "AI/Machine Learning/Unsupervised Learning",
-    "media/Pasted image 20230828162307.png",
-    "media/Pasted image 20230828150635.png",
-    "media/Pasted image 20230828150431.png",
-    "media/Pasted image 20230828143833.png",
-    "AI/vault/Untitled",
-    "AI/vault",
-    "AI/Machine Learning/Supervised Learning"
+    "AI/Machine Learning/Unsupervised Learning"
   ]
 }
