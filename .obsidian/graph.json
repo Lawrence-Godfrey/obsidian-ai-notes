@@ -5,18 +5,47 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"AI/Machine Learning\" path:\"AI/Machine Learning/Supervised Learning\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"AI/Machine Learning/Natural Language Processing\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"AI/Machine Learning/Probability\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5399264
+      }
+    },
+    {
+      "query": "path:\"AI/Machine Learning/Unsupervised Learning/Clustering\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4042301
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": 0.1,
-  "nodeSizeMultiplier": 2.3071533203125,
-  "lineSizeMultiplier": 4.466455078125,
+  "textFadeMultiplier": 0.4,
+  "nodeSizeMultiplier": 2.76014811197917,
+  "lineSizeMultiplier": 5,
   "collapse-forces": false,
-  "centerStrength": 0.575968424479167,
-  "repelStrength": 10.6982421875,
-  "linkStrength": 0.832071940104167,
-  "linkDistance": 252,
-  "scale": 1.1205600606258004,
+  "centerStrength": 0.480672200520833,
+  "repelStrength": 9.03889973958333,
+  "linkStrength": 0.616739908854167,
+  "linkDistance": 139,
+  "scale": 1.1590693208235723,
   "close": true
 }

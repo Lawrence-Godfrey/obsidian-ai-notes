@@ -8,3 +8,4 @@ Conversely, the probability of $B$ given $A$ is:
 $$
 P(B|A) = \frac{P(A\cap B)}{P(A)}
 $$
+If event $A$ is independent of event $B$, then $P(B|A)$ is equal to $P(B)$.

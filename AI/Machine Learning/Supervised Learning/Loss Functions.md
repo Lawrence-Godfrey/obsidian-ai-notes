@@ -11,7 +11,7 @@ Loss = \parallel X\Theta - Y \parallel_F
 $$
 Where $\Theta$ are the parameters of your model.
 
-Often the loss will be calculated as the square of the Frobenius norm, since we don't really care about the number itself, we just want to minimise it. The derivative of the squared Frobenius norm is then:
+Often the loss will be calculated as the square of the Frobenius norm divided by $m$ (the number of examples) which makes calculating the derivative easier. This doesn't change the outcome when minimising the loss. The derivative of the squared Frobenius norm is then:
 $$
 \frac{d}{d\Theta}Loss = \frac{2}{m}(X^T(X\Theta - Y))
 $$

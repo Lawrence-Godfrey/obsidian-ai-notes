@@ -1,0 +1,5 @@
+The Viterbi algorithm is a dynamic programming algorithm used for finding the most likely sequence of hidden states – called the Viterbi path – that results in a sequence of observed events, especially in the context of Markov information sources and [[Hidden Markov Model]]s. 
+
+Given an HMM, the Viterbi algorithm can be used to determine the most likely sequence of hidden states that produces a given sequence of observations. This is particularly useful in many applications like speech recognition, computational biology (for gene prediction), and decoding convolutional codes in wireless communication.
+
+The Viterbi algorithm is significantly more efficient than brute force methods for finding the most likely sequence of hidden states in a Hidden Markov Model due to its dynamic programming approach. This results in an $O(L*P^{2})$ time complexity rather than an $O(P^{L})$ time complexity, where $L$ is the length of the sequence and $P$ is the number of hidden states.

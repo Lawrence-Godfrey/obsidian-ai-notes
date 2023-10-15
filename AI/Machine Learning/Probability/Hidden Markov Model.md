@@ -1,0 +1,3 @@
+Hidden Markov Models are a statistical tool used to model and analyze systems that are observed indirectly. They use [[Markov Chains]] to represent the underlying states of a system and the transitions between them, and are used in [[Part of Speech Tagging]] to assign the most likely part of speech to each word in a given sentence. 
+### Emission Matrix
+In addition to the transition matrix, an emission matrix is used in HMMs to model the probabilities of observing a particular output given a hidden state. The rows of the emission matrix are the states, and the columns are the possibly observables. Each element represents the probability of observing a particular output given a specific hidden state. The row sum of each row in this matrix will always equal to 1.
