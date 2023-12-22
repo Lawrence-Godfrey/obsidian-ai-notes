@@ -1,0 +1,3 @@
+A word embedding vector is a vector representation of a word which encodes some meaning of the word in it. This allows words to be compared to each other in meaningful ways. 
+
+To create a word embedding model a corpus and embedding method is required. The words in the corpus should be **organised in the same way as they would be used in the context of interest**. For example, if you want to generate word embeddings based on Shakespeare, the corpus should be the **full original text** of Shakespeare, and not study notes, or summarised content.
