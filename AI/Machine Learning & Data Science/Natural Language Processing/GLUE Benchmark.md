@@ -1,0 +1,2 @@
+The GLUE (General Language Understanding Evaluation) benchmark is a collection of nine different natural language understanding tasks, designed to evaluate the performance of various models and algorithms. The datasets contain a diverse range of tasks such as sentence completion, text classification, and natural language inference. 
+There is a leader board that ranks the performance of different models on each task, allowing researchers to compare and analyse the effectiveness of their approaches.
