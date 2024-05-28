@@ -1,0 +1,1 @@
+A Bernoulli Distribution is a discrete probability distribution for a random variable which can take only two possible outcomes - often labeled as success (1) or failure (0).
