@@ -1,0 +1,17 @@
+Transformer architecture, a revolutionary approach in the field of natural language processing, was introduced in the paper [[Attention Is All You Need]] by Vaswani et al. in 2017. This architecture has drastically changed how we approach sequence-to-sequence tasks, like language translation, due to its effectiveness and efficiency, especially when compared to previous models based on recurrent or convolutional layers.
+## Self-Attention
+The core idea behind transformers is the use of [[Attention|self-attention]] mechanisms. Unlike traditional models that process data in sequence, transformers can handle various parts of the input data simultaneously, enabling more parallel processing and reducing training times. This capability makes transformers particularly well-suited for handling large amounts of data.
+## Architecture
+The transformer model consists of an encoder and a decoder. Each encoder contains a series of identical layers, each comprising two main sub-components: a multi-head self-attention mechanism and a position-wise fully connected feed-forward network. The decoder also has similar layers, but with an additional layer that performs multi-head attention over the encoder's output.
+
+The process within a transformer model starts with embedding. The input tokens are converted into vectors, which are capable of capturing semantic information. This embedding ensures that the model has a meaningful numerical representation of each word.
+
+After embedding, positional encoding is added to the input embeddings. Unlike RNNs or CNNs, transformers don't have an inherent notion of the order of tokens, so positional encoding is crucial. It provides the model with information about the relative or absolute position of the tokens in the sequence. This is typically achieved through sinusoidal functions, allowing the model to effectively learn the order of the words.
+
+The heart of the transformer is the attention mechanism, particularly the [[Attention|scaled dot-product attention]], which computes the attention scores. In practice, the transformer uses multi-head attention, which allows the model to jointly attend to information from different representation subspaces at different positions. This multi-head approach offers the model a more complex understanding of the context.
+
+The output from the attention mechanism then passes through a feed-forward neural network. This network applies linear transformations to each position separately and identically. The inclusion of layer normalisation and skip connections around each of these sub-layers helps in stabilising the training of deep networks.
+
+Finally, in the decoder, an additional attention layer helps in focusing on appropriate places in the input sequence, enhancing the model's ability to produce coherent and contextually relevant outputs. The final output of the decoder is a sequence of tokens, representing, for example, a translated sentence in a language translation task.
+
+In summary, transformers have redefined the landscape of neural network architecture in NLP by eliminating recurrence, enabling parallel processing, and focusing on attention mechanisms. This has led to significant improvements in various language processing tasks, setting a new standard for model architecture in this field.

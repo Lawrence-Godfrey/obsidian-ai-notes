@@ -1,0 +1,1 @@
+In AI, an ablation test is conducted to assess the importance or contribution of specific components or features within an AI model. During an ablation test, specific components or features are systematically removed or disabled to observe the impact on the overall performance of the AI model.
