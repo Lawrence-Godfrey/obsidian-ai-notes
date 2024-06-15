@@ -1,0 +1,8 @@
+For [[Linear Regression]] problems, commonly used metrics for model evaluation include:
+
+1. **Mean Absolute Error (MAE)**: This is the average of the absolute differences between the predicted and actual values. It gives a linear penalty to the prediction errors. $$\text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$$
+2. **Mean Squared Error (MSE)**: This is the average of the squared differences between the predicted and actual values. It gives a quadratic penalty to the prediction errors. $$\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$$
+3. **Root Mean Squared Error (RMSE)**: This is simply the square root of MSE. It has the advantage of being in the same units as the response variable. $$\text{RMSE} = \sqrt{\text{MSE}} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$
+4. **R-squared (Coefficient of Determination)**: This is a statistical measure of how well the regression predictions approximate the real data points. An R-squared of 1 indicates that the regression predictions perfectly fit the data. $$R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}} = 1 - \frac{\sum_{i=1}^{n} (y_i - \hat{y}_i)^2}{\sum_{i=1}^{n} (y_i - \bar{y})^2}$$where $SS_{res}$ is the residual sum of squares and $\text{SS}_{\text{tot}}$ is the total sum of squares. $\bar{y}$ is the mean value of the response variable $y$
+
+These metrics provide a quantitative measure of how well your regression model is performing. Each metric has its advantages and disadvantages, and the appropriate metric to use depends on the specific problem you're trying to solve.

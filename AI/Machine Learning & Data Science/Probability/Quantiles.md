@@ -1,0 +1,1 @@
+A quantile is a statistical term that refers to dividing a probability distribution into distinct regions. The 25% quantile divides the data at 25%, and is known as the 1st quartile. 
