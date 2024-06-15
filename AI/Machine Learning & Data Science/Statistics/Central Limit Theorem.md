@@ -1,0 +1,3 @@
+The Central Limit Theorem (CLT) is a fundamental concept in statistics that states that when an adequately large number of independent, identically distributed random variables are added, their properly normalised sum tends toward a normal distribution, regardless of the shape of the original distribution.
+
+For example, if we sample 20 points from a uniform distribution, find the mean of the 20 samples, and then plot that on a histogram, over and over, the means in the histogram will slowly take the shape of a normal distribution.
