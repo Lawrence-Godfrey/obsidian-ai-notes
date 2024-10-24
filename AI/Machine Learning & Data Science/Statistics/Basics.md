@@ -8,7 +8,6 @@ Some rules about selecting a sample:
 The last 2 rules is often referred to as i.i.d, e.g., the samples should be i.i.d.
 
 In machine learning, a dataset is essentially a sample of a population. For example, if you're training a cat classifier, your dataset will not include every possible image of a cat, but should include a representative sample. The same rules apply to these datasets.
-
 ## Sample Mean & Variance
 When estimating the population mean $\mu$ you can use a number of sample means $\bar{x}_{1}, \bar{x}_{2}, ... \bar{x}_{n}$ from separate independent samples. 
 Similarly, you can calculate the sample variance $s^{2}$ of a sample using it's mean $\bar{x}$:

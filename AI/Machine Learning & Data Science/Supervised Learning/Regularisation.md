@@ -11,7 +11,7 @@ $$where $L_{0}$​ is the original loss function, $w$ represents the weights, an
  - L2 normalisation, also known as Ridge regularisation, adds a term to the loss function that penalises the model for the square of the magnitude of the coefficients.
  - The L2 regularisation term is the sum of the squares of the weights and is also multiplied by a regularisation parameter. The modified loss function with L2 regularisation is:
 $$
-L=L_0​+λ∑w2
+L=L_0​+λ∑w^2
 	$$
 	where the terms represent the same as in L1 regularisation.
  - Unlike L1 regularisation, L2 regularisation does not lead to sparse solutions; instead, it encourages the weights to be small but not necessarily zero. This can be useful for cases where we suspect many features contribute small amounts to the final prediction.

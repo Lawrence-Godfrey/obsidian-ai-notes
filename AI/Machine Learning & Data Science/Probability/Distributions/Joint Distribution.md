@@ -1,6 +1,6 @@
 A joint distribution combines multiple random variables into a single distribution, representing the likelihood of all variables occurring simultaneously.
 ## Marginal Distribution
-The marginal distribution of a join distribution refers to the probability distribution of a single random variable within the joint distribution. This is useful when we are interested in understanding the behaviour or characteristics of one variable without considering the effect of other variables. To get the marginal distribution $P (A)$, one must sum or integrate over all possible outcomes of the other variable in the joint distribution. 
+The marginal distribution of a joint distribution refers to the probability distribution of a single random variable within the joint distribution. This is useful when we are interested in understanding the behaviour or characteristics of one variable without considering the effect of other variables. To get the marginal distribution $P (A)$, one must sum or integrate over all possible outcomes of the other variable in the joint distribution. 
 
 $$
 P(A) = \sum_{B} P(A, B)
