@@ -1,0 +1,5 @@
+Probability measures the likelihood of a specific event occurring within a defined set of possible outcomes. It is a number between 0 and 1, where 0 indicates impossibility and 1 indicates certainty.
+
+Confidence, in the context of [[AI/Machine Learning & Data Science/Probability/Confidence Intervals|Confidence Intervals]], refers to the degree of certainty that a parameter lies within a specified range. A confidence level is typically expressed as a percentage (e.g., 95%). Confidence is used in inferential statistics to express the reliability of an estimate. It indicates how sure we are that a parameter (e.g., a population mean) lies within a certain interval based on sample data.
+
+A 95% confidence interval means that if we were to take many random samples and construct a confidence interval from each sample, approximately 95% of those intervals would contain the true population parameter. It does not mean there is a 95% probability that any single interval contains the parameter; rather, it reflects the long-term performance of the method.
