@@ -6,6 +6,10 @@ $$Z_{i}= A_{i-1} W_{i} + b_{i}$$
 The activation function is then applied to these outputs:
 $$A_{i}= Activation(Z_{i})$$
 ### Backpropagation
+
+> [!NOTE]
+> In 2024, [Geoffrey Hinton](https://en.wikipedia.org/wiki/Geoffrey_Hinton), co-author of a highly cited paper published in 1986 that popularised the backpropagation algorithm, won a Novel Prize in Physics for his work in ANNs.
+
 The gradient of the output layer can be computed by calculating the difference between the activations of the final layer and the labeled outputs:
 $$\delta_{L} = (\hat{Y} - Y)$$
 where $L$ is the final layer.
