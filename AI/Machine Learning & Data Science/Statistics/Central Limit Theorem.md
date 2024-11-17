@@ -10,5 +10,5 @@ Consider a population with a mean $\mu = 100$ and standard deviation $\sigma = 1
 3. **Repeat**: Repeat this process many times to get the sampling distribution of the sample mean.
 According to the CLT, as the sample size $n$ becomes large, the distribution of $\bar{X}$ will approach a normal distribution with mean $\mu$ and standard deviation $\frac{\sigma}{\sqrt{n}}$.
 ## Use Cases
-The CLT is useful because it allows us to use tools like [[Confidence Intervals]], [[Hypothesis Testing#Test Statistic|T-tests]], [[ANOVA]], etc., even when the original data does not follow a normal distribution.
-
+The CLT is useful because it allows us to use tools like [[Confidence Intervals]], [[Hypothesis Testing#Test Statistic|T-tests]], [[ANOVA]], etc., even when the original data does not follow a normal distribution. 
+Because of the CLT, we know that the sample mean will be close to the true mean in large samples. This makes it possible to use the sample mean as an estimate of the population mean with a known error margin.
