@@ -34,3 +34,17 @@ We can add a hyperparameter, the alpha margin $\alpha$, which essentially makes 
 $$
 Loss = \begin{equation} \left\{ \begin{aligned} & 0; \text{if diff + } \alpha \leq 0  \\ & diff + \alpha; \text{ if diff + } \alpha \gt 0  \end{aligned} \right. \end{equation}
 $$
+### Contrastive Loss
+Contrastive loss is used for tasks that involve finding similarity or dissimilarity between two instances, for example, in tasks such as face recognition or signature verification. The main idea behind contrastive loss is to minimise the distance between similar instances and maximise the distance between dissimilar instances.
+
+The formula for contrastive loss is
+$$
+L = yd^{2} + (1-y)Max(0, m-d)^{2}
+$$
+Where $y$ is the labeled sample, which will be $1$ for the positive example and $0$ for the negative example. So for a positive example we will only consider the first part of the function, meaning your loss is directly correlated to the square of the Euclidean distance. For a negative sample, the loss is square of the distance from the margin $m$ (a hyperparameter which determines how strictly the model enforces the minimum distance between dissimilar pairs). 
+
+We use a margin in contrastive loss for a few reasons:
+1. It enforces a minimum distance for separation, rather than some arbitrary distance.
+2. It avoids overfitting by reducing the importance of separating the points by some infinitely scaling distance.
+3. Creates stability.
+4. Allows for flexibility since you can tweak how strict the model is.
