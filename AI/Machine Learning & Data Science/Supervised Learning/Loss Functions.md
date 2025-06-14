@@ -41,7 +41,7 @@ The formula for contrastive loss is
 $$
 L = yd^{2} + (1-y)Max(0, m-d)^{2}
 $$
-Where $y$ is the labeled sample, which will be $1$ for the positive example and $0$ for the negative example. So for a positive example we will only consider the first part of the function, meaning your loss is directly correlated to the square of the Euclidean distance. For a negative sample, the loss is square of the distance from the margin $m$ (a hyperparameter which determines how strictly the model enforces the minimum distance between dissimilar pairs). 
+Where $y$ is the labelled sample, which will be $1$ for the positive example and $0$ for the negative example. So for a positive example we will only consider the first part of the function, meaning your loss is directly correlated to the square of the Euclidean distance. For a negative sample, the loss is square of the distance from the margin $m$ (a hyperparameter which determines how strictly the model enforces the minimum distance between dissimilar pairs). 
 
 We use a margin in contrastive loss for a few reasons:
 1. It enforces a minimum distance for separation, rather than some arbitrary distance.
