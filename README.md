@@ -1,4 +1,4 @@
-This [Obsidian](https://obsidian.md/) vault contains notes on just about everything I've learned about AI, or at least the stuff that I thought were important enough to write down. 
+This [Obsidian](https://obsidian.md/) vault contains notes on just about everything I've learned about AI, or at least the stuff that I thought were important enough to write down. In other words, [Hypomnemata](https://foucault.info/documents/foucault.hypomnemata.en/).
 
 Obsidian has some nice features like [forward](https://help.obsidian.md/link-notes) and [backward](https://help.obsidian.md/plugins/backlinks) links, [graph views](https://help.obsidian.md/plugins/graph), etc., but all the notes are just markdown, so you can use them in any markdown editor or viewer.
 
